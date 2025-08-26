@@ -113,3 +113,44 @@ a:hover {
     transform: rotate(1deg);
   }
 }
+
+/* === Responsive: ajustes para pantallas menores a 768px === */
+@media (max-width: 768px) {
+  #encabezado h1 {
+    font-size: 2em;
+    animation: none;
+  }
+
+  #encabezado p {
+    font-size: 1em;
+    padding: 0 1em;
+  }
+
+  #sobre-mi,
+  .experiencia {
+    margin: 1em auto;
+    padding: 0 1em;
+  }
+
+  img {
+    max-width: 90%;
+    margin: 1em auto;
+  }
+
+  .descripcion {
+    font-size: 0.95em;
+    line-height: 1.6;
+    padding: 0 1em;
+  }
+
+  .item {
+    font-size: 0.95em;
+    text-align: left;
+    padding: 0.5em 1em;
+  }
+
+  .pie {
+    font-size: 0.8em;
+    padding: 1em 0.5em;
+  }
+}
